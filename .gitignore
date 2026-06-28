@@ -26,3 +26,15 @@ Thumbs.db
 
 # Local Vector Database
 data/vector_db/
+
+APP_NAME=Enterprise Knowledge Assistant
+
+VERSION=1.0.0
+
+DESCRIPTION=Production Grade RAG System
+
+HOST=127.0.0.1
+
+PORT=8000
+
+OLLAMA_MODEL=llama3
