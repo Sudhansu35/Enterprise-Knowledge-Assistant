@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enterprise Knowledge Assistant
 
 ## Project Overview
@@ -27,3 +28,6 @@ This project is being developed as a complete end-to-end AI Engineering project,
 🚧 Under Development
 
 Current Version: v1.0.0
+=======
+# Enterprise-Knowledge-Assistant
+>>>>>>> cfefc96f9cd79d8f96e82f00cfe9b5366b6bcdbe
