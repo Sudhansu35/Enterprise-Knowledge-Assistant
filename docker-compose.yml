@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+
+  rag-api:
+
+    build: .
+
+    container_name: enterprise-rag
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      OLLAMA_HOST: http://host.docker.internal:11434
+      OLLAMA_MODEL: llama3
+      EMBEDDING_MODEL: nomic-embed-text
+
+    volumes:
+      - ./data:/app/data
+
+    restart: unless-stopped
